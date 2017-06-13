@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		98479CB01ECA80CC00EB970E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98479CAF1ECA80CC00EB970E /* AppDelegate.swift */; };
-		98479CB21ECA80CC00EB970E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98479CB11ECA80CC00EB970E /* ViewController.swift */; };
 		98479CB51ECA80CC00EB970E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98479CB31ECA80CC00EB970E /* Main.storyboard */; };
 		98479CB71ECA80CC00EB970E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98479CB61ECA80CC00EB970E /* Assets.xcassets */; };
 		98479CBA1ECA80CC00EB970E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98479CB81ECA80CC00EB970E /* LaunchScreen.storyboard */; };
 		98479CC51ECA80CC00EB970E /* HeeyTaxiPrototipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98479CC41ECA80CC00EB970E /* HeeyTaxiPrototipeTests.swift */; };
 		98479CD01ECA80CC00EB970E /* HeeyTaxiPrototipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98479CCF1ECA80CC00EB970E /* HeeyTaxiPrototipeUITests.swift */; };
+		98479CDF1ECA812E00EB970E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98479CDE1ECA812E00EB970E /* MapKit.framework */; };
+		98479CE11ECA818200EB970E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98479CE01ECA818200EB970E /* CoreLocation.framework */; };
+		98479CE31ECA876000EB970E /* LibreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98479CE21ECA876000EB970E /* LibreViewController.swift */; };
+		98479CE51ECA891900EB970E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98479CE41ECA891900EB970E /* HomeViewController.swift */; };
+		98DFAF8D1ECF5CCC00070610 /* OcupadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DFAF8C1ECF5CCC00070610 /* OcupadoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		98479CAC1ECA80CC00EB970E /* HeeyTaxiPrototipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeeyTaxiPrototipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98479CAF1ECA80CC00EB970E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		98479CB11ECA80CC00EB970E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		98479CB41ECA80CC00EB970E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98479CB61ECA80CC00EB970E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98479CB91ECA80CC00EB970E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		98479CCB1ECA80CC00EB970E /* HeeyTaxiPrototipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeeyTaxiPrototipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98479CCF1ECA80CC00EB970E /* HeeyTaxiPrototipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeeyTaxiPrototipeUITests.swift; sourceTree = "<group>"; };
 		98479CD11ECA80CC00EB970E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98479CDE1ECA812E00EB970E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		98479CE01ECA818200EB970E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		98479CE21ECA876000EB970E /* LibreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibreViewController.swift; sourceTree = "<group>"; };
+		98479CE41ECA891900EB970E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		98DFAF8C1ECF5CCC00070610 /* OcupadoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcupadoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98479CE11ECA818200EB970E /* CoreLocation.framework in Frameworks */,
+				98479CDF1ECA812E00EB970E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +91,7 @@
 				98479CC31ECA80CC00EB970E /* HeeyTaxiPrototipeTests */,
 				98479CCE1ECA80CC00EB970E /* HeeyTaxiPrototipeUITests */,
 				98479CAD1ECA80CC00EB970E /* Products */,
+				98479CDD1ECA812E00EB970E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +109,9 @@
 			isa = PBXGroup;
 			children = (
 				98479CAF1ECA80CC00EB970E /* AppDelegate.swift */,
-				98479CB11ECA80CC00EB970E /* ViewController.swift */,
+				98479CE41ECA891900EB970E /* HomeViewController.swift */,
+				98479CE21ECA876000EB970E /* LibreViewController.swift */,
+				98DFAF8C1ECF5CCC00070610 /* OcupadoViewController.swift */,
 				98479CB31ECA80CC00EB970E /* Main.storyboard */,
 				98479CB61ECA80CC00EB970E /* Assets.xcassets */,
 				98479CB81ECA80CC00EB970E /* LaunchScreen.storyboard */,
@@ -123,6 +136,15 @@
 				98479CD11ECA80CC00EB970E /* Info.plist */,
 			);
 			path = HeeyTaxiPrototipeUITests;
+			sourceTree = "<group>";
+		};
+		98479CDD1ECA812E00EB970E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98479CE01ECA818200EB970E /* CoreLocation.framework */,
+				98479CDE1ECA812E00EB970E /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +215,13 @@
 				TargetAttributes = {
 					98479CAB1ECA80CC00EB970E = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = QXYQ22M4R8;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					98479CBF1ECA80CC00EB970E = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -259,8 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98479CB21ECA80CC00EB970E /* ViewController.swift in Sources */,
+				98DFAF8D1ECF5CCC00070610 /* OcupadoViewController.swift in Sources */,
+				98479CE31ECA876000EB970E /* LibreViewController.swift in Sources */,
 				98479CB01ECA80CC00EB970E /* AppDelegate.swift in Sources */,
+				98479CE51ECA891900EB970E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,11 +442,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QXYQ22M4R8;
 				INFOPLIST_FILE = HeeyTaxiPrototipe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HeeyTaxiPrototipe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -424,11 +456,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QXYQ22M4R8;
 				INFOPLIST_FILE = HeeyTaxiPrototipe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HeeyTaxiPrototipe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -505,6 +539,7 @@
 				98479CD61ECA80CC00EB970E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98479CD71ECA80CC00EB970E /* Build configuration list for PBXNativeTarget "HeeyTaxiPrototipeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +548,7 @@
 				98479CD91ECA80CC00EB970E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98479CDA1ECA80CC00EB970E /* Build configuration list for PBXNativeTarget "HeeyTaxiPrototipeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +557,7 @@
 				98479CDC1ECA80CC00EB970E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
